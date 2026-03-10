@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pampered Paws Dog Boarding — Where Every Dog is Family</title>
+  <meta name="description" content="Premium dog boarding, daycare, and grooming in your neighborhood. Your dog deserves the very best — and that's exactly what they'll get at Pampered Paws." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-icon">🐾</span>
+        <span class="nav__logo-text">Pampered Paws</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <a href="#contact" class="btn btn--nav">Book a Stay</a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <ul>
+        <li><a href="#services" class="mobile-link">Services</a></li>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#gallery" class="mobile-link">Gallery</a></li>
+        <li><a href="#testimonials" class="mobile-link">Reviews</a></li>
+        <li><a href="#pricing" class="mobile-link">Pricing</a></li>
+        <li><a href="#faq" class="mobile-link">FAQ</a></li>
+        <li><a href="#contact" class="mobile-link btn btn--primary" style="display:inline-block;margin-top:1rem;">Book a Stay</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__grain"></div>
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__orb hero__orb--3"></div>
+    </div>
+    <div class="hero__paws">
+      <span class="paw paw--1">🐾</span>
+      <span class="paw paw--2">🐾</span>
+      <span class="paw paw--3">🐾</span>
+      <span class="paw paw--4">🐾</span>
+      <span class="paw paw--5">🐾</span>
+    </div>
+    <div class="hero__content">
+      <div class="hero__badge reveal">Premium Dog Boarding & Care</div>
+      <h1 class="hero__headline reveal reveal--delay-1">
+        Your dog deserves<br />
+        <em>more than a kennel.</em>
+      </h1>
+      <p class="hero__sub reveal reveal--delay-2">
+        At Pampered Paws, every dog is treated like family. Luxury boarding, daycare,<br class="br-lg" />
+        and grooming — all under one loving roof.
+      </p>
+      <div class="hero__actions reveal reveal--delay-3">
+        <a href="#contact" class="btn btn--primary btn--lg">Book a Stay</a>
+        <a href="#services" class="btn btn--ghost btn--lg">Explore Services</a>
+      </div>
+      <div class="hero__trust reveal reveal--delay-4">
+        <div class="trust-item">
+          <strong>500+</strong>
+          <span>Happy Dogs</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <strong>5★</strong>
+          <span>Average Rating</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <strong>8 yrs</strong>
+          <span>Of Experience</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <strong>24/7</strong>
+          <span>On-Site Staff</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">Tailored care<br /><em>for every pup</em></h2>
+        <p class="section-sub">From overnight stays to spa days, we offer everything your dog needs to feel at home.</p>
+      </div>
+      <div class="services__grid">
+        <div class="service-card" data-delay="0">
+          <div class="service-card__icon">🏠</div>
+          <h3>Overnight Boarding</h3>
+          <p>Cozy private suites with plush bedding, nighttime check-ins, and a bedtime story (we're serious). Dogs sleep soundly knowing they're loved.</p>
+          <ul class="service-card__features">
+            <li>Private climate-controlled suite</li>
+            <li>Evening & morning walks</li>
+            <li>Nightly photo updates to you</li>
+            <li>Medications administered</li>
+          </ul>
+          <a href="#pricing" class="service-card__link">View Pricing →</a>
+        </div>
+        <div class="service-card service-card--featured" data-delay="100">
+          <div class="service-card__badge">Most Popular</div>
+          <div class="service-card__icon">☀️</div>
+          <h3>Doggy Daycare</h3>
+          <p>Drop off and pick up while your pup plays all day. Supervised group play, enrichment activities, and rest periods — the perfect dog day.</p>
+          <ul class="service-card__features">
+            <li>Structured play groups by size</li>
+            <li>Mental enrichment activities</li>
+            <li>Midday snack included</li>
+            <li>Daily report card</li>
+          </ul>
+          <a href="#pricing" class="service-card__link">View Pricing →</a>
+        </div>
+        <div class="service-card" data-delay="200">
+          <div class="service-card__icon">✂️</div>
+          <h3>Grooming & Spa</h3>
+          <p>Baths, haircuts, nail trims, and ear cleaning by certified groomers. Your dog leaves looking — and smelling — like royalty.</p>
+          <ul class="service-card__features">
+            <li>Breed-specific styling</li>
+            <li>Gentle, stress-free handling</li>
+            <li>Organic shampoos & conditioners</li>
+            <li>Blueberry facial add-on available</li>
+          </ul>
+          <a href="#pricing" class="service-card__link">View Pricing →</a>
+        </div>
+        <div class="service-card" data-delay="300">
+          <div class="service-card__icon">🐕</div>
+          <h3>Training Sessions</h3>
+          <p>One-on-one sessions with certified trainers. Basic obedience to advanced commands — we meet your dog where they are.</p>
+          <ul class="service-card__features">
+            <li>Positive reinforcement only</li>
+            <li>Certified professional trainers</li>
+            <li>Progress reports & homework</li>
+            <li>Group class options available</li>
+          </ul>
+          <a href="#contact" class="service-card__link">Inquire →</a>
+        </div>
+        <div class="service-card" data-delay="400">
+          <div class="service-card__icon">🏃</div>
+          <h3>Adventure Walks</h3>
+          <p>Beyond the backyard. Our handlers take small groups on nature trails, giving your dog real exercise and real adventure.</p>
+          <ul class="service-card__features">
+            <li>Max 4 dogs per handler</li>
+            <li>GPS-tracked every walk</li>
+            <li>Enrichment sniff stops</li>
+            <li>Post-walk photo gallery</li>
+          </ul>
+          <a href="#pricing" class="service-card__link">View Pricing →</a>
+        </div>
+        <div class="service-card" data-delay="500">
+          <div class="service-card__icon">🏥</div>
+          <h3>Vet Coordination</h3>
+          <p>We partner with local vets so your dog's health is always top priority. Medication management, health checks, and emergency care contacts ready.</p>
+          <ul class="service-card__features">
+            <li>On-call vet partnerships</li>
+            <li>Medication schedule management</li>
+            <li>Health observation logs</li>
+            <li>Emergency contact protocol</li>
+          </ul>
+          <a href="#contact" class="service-card__link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / WHY US -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__visual">
+          <div class="about__img-stack">
+            <div class="about__img about__img--main">
+              <div class="img-placeholder img-placeholder--warm">
+                <span class="img-placeholder__icon">🐕‍🦺</span>
+                <span class="img-placeholder__label">Our facility</span>
+              </div>
+            </div>
+            <div class="about__img about__img--accent">
+              <div class="img-placeholder img-placeholder--cool">
+                <span class="img-placeholder__icon">🐩</span>
+                <span class="img-placeholder__label">Happy guests</span>
+              </div>
+            </div>
+            <div class="about__cert-badge">
+              <span class="cert-badge__icon">✓</span>
+              <div>
+                <strong>Certified</strong>
+                <span>Professional Pet Care</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about__content">
+          <span class="section-tag">Our Story</span>
+          <h2 class="section-title">Built by dog lovers,<br /><em>run for dogs</em></h2>
+          <p class="about__lead">
+            Pampered Paws started when our founder, Sarah, couldn't find a place she truly trusted with her rescue lab, Biscuit. So she built it herself.
+          </p>
+          <p class="about__body">
+            Since 2016, we've cared for over 500 dogs and become the most trusted boarding facility in the area. Every staff member is pet-first-aid certified, dog-behaviour trained, and — most importantly — genuinely obsessed with animals.
+          </p>
+          <div class="about__pillars">
+            <div class="pillar">
+              <div class="pillar__icon">🛡️</div>
+              <div>
+                <strong>Safety First</strong>
+                <p>24/7 on-site staff, fully vaccinated guests, secure facilities with multiple safety checks daily.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar__icon">❤️</div>
+              <div>
+                <strong>Genuine Love</strong>
+                <p>We don't just watch dogs — we love them. Cuddles, belly rubs, and enrichment are part of every day.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar__icon">📱</div>
+              <div>
+                <strong>Full Transparency</strong>
+                <p>Daily photo updates, digital report cards, and a direct line to your dog's handler, always.</p>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn--primary">Meet the Team</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Life at Pampered Paws</span>
+        <h2 class="section-title">Happy faces,<br /><em>every single day</em></h2>
+      </div>
+    </div>
+    <div class="gallery__grid">
+      <div class="gallery-item gallery-item--tall" style="--bg: #C67C3B20">
+        <div class="gallery-item__inner">
+          <span class="gallery-item__emoji">🐾</span>
+          <span class="gallery-item__label">Play Time</span>
+        </div>
+      </div>
+      <div class="gallery-item" style="--bg: #4A8C7A20">
+        <div class="gallery-item__inner">
+          <span class="gallery-item__emoji">🐶</span>
+          <span class="gallery-item__label">Morning Walks</span>
+        </div>
+      </div>
+      <div class="gallery-item" style="--bg: #C67C3B15">
+        <div class="gallery-item__inner">
+          <span class="gallery-item__emoji">🛁</span>
+          <span class="gallery-item__label">Spa Day</span>
+        </div>
+      </div>
+      <div class="gallery-item gallery-item--wide" style="--bg: #3D2A1A15">
+        <div class="gallery-item__inner">
+          <span class="gallery-item__emoji">🏃</span>
+          <span class="gallery-item__label">Adventure Walks</span>
+        </div>
+      </div>
+      <div class="gallery-item gallery-item--tall" style="--bg: #4A8C7A15">
+        <div class="gallery-item__inner">
+          <span class="gallery-item__emoji">😴</span>
+          <span class="gallery-item__label">Rest Time</span>
+        </div>
+      </div>
+      <div class="gallery-item" style="--bg: #C67C3B25">
+        <div class="gallery-item__inner">
+          <span class="gallery-item__emoji">🎾</span>
+          <span class="gallery-item__label">Fetch!</span>
+        </div>
+      </div>
+      <div class="gallery-item" style="--bg: #4A8C7A20">
+        <div class="gallery-item__inner">
+          <span class="gallery-item__emoji">🌳</span>
+          <span class="gallery-item__label">Outdoor Play</span>
+        </div>
+      </div>
+      <div class="gallery-item" style="--bg: #C67C3B10">
+        <div class="gallery-item__inner">
+          <span class="gallery-item__emoji">🤗</span>
+          <span class="gallery-item__label">Cuddle Time</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Dog Parent Love</span>
+        <h2 class="section-title">Don't just take<br /><em>our word for it</em></h2>
+      </div>
+    </div>
+    <div class="testimonials__track-wrapper">
+      <div class="testimonials__track" id="testimonialsTrack">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__quote">"I was so nervous leaving my rescue dog for the first time — she has severe anxiety. The team sent me updates every few hours and even did a FaceTime so I could see she was happy. I cried happy tears. Absolute angels."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar" style="--bg: #C67C3B">JM</div>
+            <div>
+              <strong>Jamie M.</strong>
+              <span>Dog Mom to Rosie, 3yr Rescue Mix</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__quote">"We've tried four different boarding places for our two golden retrievers. Pampered Paws is in a completely different league. The facility is spotless, staff know every dog by name, and our boys come home actually tired from real play."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar" style="--bg: #4A8C7A">DK</div>
+            <div>
+              <strong>David K.</strong>
+              <span>Dog Dad to Mango & Boba</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__quote">"My chihuahua is 14 years old and needs medication twice a day. I was genuinely worried about finding anyone I'd trust. Pampered Paws handled it perfectly — she came back well-rested and completely herself. Will never go anywhere else."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar" style="--bg: #8B5A3C">SR</div>
+            <div>
+              <strong>Sofia R.</strong>
+              <span>Dog Mom to Princess, 14yr Chihuahua</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__quote">"The grooming service is phenomenal. My bernedoodle came back looking like she'd been to a professional salon — which she had! The groomers clearly love what they do and handled her so gently. Booking every 6 weeks now."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar" style="--bg: #5A7A8C">TL</div>
+            <div>
+              <strong>Taylor L.</strong>
+              <span>Dog Mom to Luna, Bernedoodle</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__quote">"My dog Marcus used to come home from boarding depressed and clingy for days. After his first stay at Pampered Paws, he walked in the door and immediately wanted to play. That tells you everything. This place is genuinely different."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar" style="--bg: #7A5C8C">AB</div>
+            <div>
+              <strong>Alex B.</strong>
+              <span>Dog Dad to Marcus, 5yr Lab</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonials__controls">
+        <button class="testimonial-btn" id="prevBtn" aria-label="Previous">←</button>
+        <div class="testimonials__dots" id="testimonialDots"></div>
+        <button class="testimonial-btn" id="nextBtn" aria-label="Next">→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing section" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Transparent Pricing</span>
+        <h2 class="section-title">Simple plans,<br /><em>no surprises</em></h2>
+        <p class="section-sub">All packages include daily updates, fresh water, and unlimited love.</p>
+      </div>
+      <div class="pricing__toggle">
+        <span class="toggle-label toggle-label--active" id="overnightLabel">Overnight Boarding</span>
+        <button class="toggle-switch" id="pricingToggle" aria-label="Toggle pricing type" role="switch" aria-checked="false"></button>
+        <span class="toggle-label" id="daycareLabel">Daycare</span>
+      </div>
+      <div class="pricing__grid" id="pricingGrid">
+        <!-- Overnight Pricing (default) -->
+        <div class="price-card" id="basicCard">
+          <div class="price-card__header">
+            <h3>Cozy Suite</h3>
+            <p>Perfect for laid-back pups who love their space</p>
+          </div>
+          <div class="price-card__price">
+            <span class="price-card__amount" data-overnight="49" data-daycare="29">$49</span>
+            <span class="price-card__period">/night</span>
+          </div>
+          <ul class="price-card__features">
+            <li class="included">Private suite with plush bedding</li>
+            <li class="included">2× daily walks</li>
+            <li class="included">Morning & evening feeding</li>
+            <li class="included">Daily photo update</li>
+            <li class="included">Medication administration</li>
+            <li class="not-included">Group play sessions</li>
+            <li class="not-included">Adventure walks</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline btn--full">Book Cozy Suite</a>
+        </div>
+        <div class="price-card price-card--popular" id="popularCard">
+          <div class="price-card__popular-badge">Best Value</div>
+          <div class="price-card__header">
+            <h3>Pampered Suite</h3>
+            <p>The full experience — our most loved package</p>
+          </div>
+          <div class="price-card__price">
+            <span class="price-card__amount" data-overnight="75" data-daycare="45">$75</span>
+            <span class="price-card__period">/night</span>
+          </div>
+          <ul class="price-card__features">
+            <li class="included">Spacious suite with premium bedding</li>
+            <li class="included">3× daily walks</li>
+            <li class="included">Morning, midday & evening feeding</li>
+            <li class="included">2× daily photo/video updates</li>
+            <li class="included">Medication administration</li>
+            <li class="included">Group play sessions (2×/day)</li>
+            <li class="included">Bedtime tuck-in & cuddle</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary btn--full">Book Pampered Suite</a>
+        </div>
+        <div class="price-card" id="luxeCard">
+          <div class="price-card__header">
+            <h3>Royal Suite</h3>
+            <p>For the dog who accepts nothing less than everything</p>
+          </div>
+          <div class="price-card__price">
+            <span class="price-card__amount" data-overnight="110" data-daycare="65">$110</span>
+            <span class="price-card__period">/night</span>
+          </div>
+          <ul class="price-card__features">
+            <li class="included">Private luxury suite with sofa & TV</li>
+            <li class="included">Unlimited walks on request</li>
+            <li class="included">Chef-prepared meals (diet options)</li>
+            <li class="included">Live webcam access 24/7</li>
+            <li class="included">Medication administration</li>
+            <li class="included">Private play sessions (3×/day)</li>
+            <li class="included">Bath & blow-dry included</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline btn--full">Book Royal Suite</a>
+        </div>
+      </div>
+      <p class="pricing__note">Multi-dog discounts available. Ask about our loyalty program. Prices subject to holiday surcharge during peak periods.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <div class="faq__inner">
+        <div class="faq__header">
+          <span class="section-tag">Got Questions?</span>
+          <h2 class="section-title">Everything<br /><em>you need to know</em></h2>
+          <p>Can't find your answer? <a href="#contact">Contact us directly</a> — we respond within the hour.</p>
+        </div>
+        <div class="faq__list">
+          <div class="faq-item">
+            <button class="faq-item__question">
+              <span>What vaccinations does my dog need?</span>
+              <span class="faq-item__icon">+</span>
+            </button>
+            <div class="faq-item__answer">
+              <p>We require proof of current Rabies, Bordetella (kennel cough), and DHPP (distemper, hepatitis, parvovirus) vaccinations for all boarding and daycare guests. Records must be provided at or before drop-off. We partner with local vet offices to make obtaining records easy.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__question">
+              <span>What are your check-in and check-out times?</span>
+              <span class="faq-item__icon">+</span>
+            </button>
+            <div class="faq-item__answer">
+              <p>Check-in is available from 7:00 AM to 7:00 PM daily. Check-out is from 7:00 AM to 6:00 PM. Late check-out (until 8:00 PM) can be arranged for a small fee of $15. We're open 365 days a year including holidays — because dogs don't take holidays either.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__question">
+              <span>Can I bring my dog's own food and bedding?</span>
+              <span class="faq-item__icon">+</span>
+            </button>
+            <div class="faq-item__answer">
+              <p>Absolutely — and we encourage it! Keeping your dog's routine consistent helps reduce stress. Bring their food pre-measured in daily servings if possible. A favorite blanket or toy is warmly welcomed. We launder all bedding before return and ensure everything goes home with your pup.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__question">
+              <span>How do you handle dogs that don't get along with others?</span>
+              <span class="faq-item__icon">+</span>
+            </button>
+            <div class="faq-item__answer">
+              <p>Every dog goes through a temperament evaluation before group play. Dogs who prefer solo time, show anxiety in groups, or have a history of dog-to-dog incidents are given individual play sessions and enrichment activities instead. Your dog's comfort always comes first — not fitting in with a group is never held against them.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__question">
+              <span>What happens in a medical emergency?</span>
+              <span class="faq-item__icon">+</span>
+            </button>
+            <div class="faq-item__answer">
+              <p>We partner with two local emergency veterinary clinics and have agreements for priority access. All staff are pet first-aid and CPR certified. At intake, we collect your emergency contact, your vet's contact, and authorize emergency care up to a set amount. You are notified immediately of any health concern — we do not wait.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__question">
+              <span>Do you take dogs of all sizes and breeds?</span>
+              <span class="faq-item__icon">+</span>
+            </button>
+            <div class="faq-item__answer">
+              <p>Yes — from teacup Chihuahuas to Great Danes. Play groups are organized by size and temperament, not breed. We do not have breed restrictions. Large breed suites are available with XL bedding and extra outdoor time. Senior dogs and puppies have tailored schedules to suit their energy and health needs.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__question">
+              <span>How far in advance should I book?</span>
+              <span class="faq-item__icon">+</span>
+            </button>
+            <div class="faq-item__answer">
+              <p>We recommend 1–2 weeks for regular weekends and 4–6 weeks for holidays (Thanksgiving, Christmas, Spring Break, summer months). First-time boarders also need a brief meet-and-greet and vaccination check before their first stay — factor in a few days for this. Book early, especially for the Royal Suite which fills quickly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / BOOKING -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <div class="contact__info">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Ready to give your<br /><em>dog the best?</em></h2>
+          <p class="contact__sub">Fill out the form and we'll get back to you within an hour. First-time guests get a complimentary meet-and-greet.</p>
+
+          <div class="contact__details">
+            <div class="contact-detail">
+              <span class="contact-detail__icon">📍</span>
+              <div>
+                <strong>Find Us</strong>
+                <span>123 Wag Way, Dogwood District<br />Springfield, ST 12345</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-detail__icon">📞</span>
+              <div>
+                <strong>Call or Text</strong>
+                <span>(555) PAW-LOVE<br />(555) 729-5683</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-detail__icon">🕐</span>
+              <div>
+                <strong>Hours</strong>
+                <span>Mon–Fri: 7am – 8pm<br />Sat–Sun: 8am – 7pm</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-detail__icon">📧</span>
+              <div>
+                <strong>Email</strong>
+                <span>hello@pamperedpawsboarding.com</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__social">
+            <a href="#" class="social-btn" aria-label="Instagram">📸 Instagram</a>
+            <a href="#" class="social-btn" aria-label="Facebook">👍 Facebook</a>
+          </div>
+        </div>
+
+        <form class="contact__form" id="bookingForm" novalidate>
+          <h3>Book a Stay or Inquire</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="ownerName">Your Name</label>
+              <input type="text" id="ownerName" name="ownerName" placeholder="Jane Smith" required />
+              <span class="form-error" id="ownerNameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+              <span class="form-error" id="emailError"></span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" />
+            </div>
+            <div class="form-group">
+              <label for="dogName">Dog's Name</label>
+              <input type="text" id="dogName" name="dogName" placeholder="Biscuit" required />
+              <span class="form-error" id="dogNameError"></span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="breed">Breed & Age</label>
+              <input type="text" id="breed" name="breed" placeholder="Golden Retriever, 3 years" />
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interested In</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service...</option>
+                <option>Overnight Boarding – Cozy Suite</option>
+                <option>Overnight Boarding – Pampered Suite</option>
+                <option>Overnight Boarding – Royal Suite</option>
+                <option>Doggy Daycare</option>
+                <option>Grooming & Spa</option>
+                <option>Training Session</option>
+                <option>Adventure Walk</option>
+                <option>Multiple Services</option>
+              </select>
+              <span class="form-error" id="serviceError"></span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="checkin">Check-in Date</label>
+              <input type="date" id="checkin" name="checkin" />
+            </div>
+            <div class="form-group">
+              <label for="checkout">Check-out Date</label>
+              <input type="date" id="checkout" name="checkout" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Anything else we should know?</label>
+            <textarea id="message" name="message" rows="4" placeholder="Special needs, medications, behavioral notes, questions..."></textarea>
+          </div>
+          <div class="form-checkbox">
+            <input type="checkbox" id="terms" name="terms" required />
+            <label for="terms">I confirm my dog's vaccinations are up to date and I agree to <a href="#">Pampered Paws' boarding policies</a>.</label>
+            <span class="form-error" id="termsError"></span>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full btn--lg" id="submitBtn">
+            <span class="btn-text">Send Booking Request</span>
+            <span class="btn-loading" aria-hidden="true">Sending...</span>
+          </button>
+          <div class="form-success" id="formSuccess" aria-live="polite">
+            🐾 Got it! We'll reach out within the hour. Your pup is in good hands.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo">
+            <span class="nav__logo-icon">🐾</span>
+            <span class="nav__logo-text">Pampered Paws</span>
+          </a>
+          <p>Where every dog is family.<br />Boarding, daycare & grooming<br />done with genuine love.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="Facebook">👍</a>
+            <a href="#" aria-label="Google Reviews">⭐</a>
+          </div>
+        </div>
+        <div class="footer__links">
+          <div class="footer__col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#services">Overnight Boarding</a></li>
+              <li><a href="#services">Doggy Daycare</a></li>
+              <li><a href="#services">Grooming & Spa</a></li>
+              <li><a href="#services">Training</a></li>
+              <li><a href="#services">Adventure Walks</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#testimonials">Reviews</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="#contact">Book a Stay</a></li>
+              <li><a href="tel:5557295683">(555) PAW-LOVE</a></li>
+              <li><a href="mailto:hello@pamperedpawsboarding.com">hello@pamperedpaws.com</a></li>
+              <li>123 Wag Way, Springfield</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Pampered Paws Dog Boarding. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Boarding Policies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

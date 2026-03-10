@@ -1,0 +1,15 @@
+{
+  "name": "pampered-paws",
+  "version": "1.0.0",
+  "description": "Pampered Paws Dog Boarding website",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "serve": "npx serve . -p 51234"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "serve": "^14.2.4"
+  }
+}
